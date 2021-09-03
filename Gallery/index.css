@@ -1,0 +1,32 @@
+.gallery-cont {
+  background-image: linear-gradient(#7215d8, black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+}
+.image-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.heading {
+  font-family: 'Sans Serif';
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+.text {
+  font-family: 'Sans Serif';
+  font-size: 20px;
+  font-style: italic;
+  text-align: end;
+  color: white;
+}
+.image-display {
+  height: 70vh;
+  width: 100%;
+  border-radius: 30px;
+}
